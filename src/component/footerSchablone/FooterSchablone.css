@@ -13,4 +13,8 @@
   position: fixed;
   bottom: 0px;
   width: 100vw;
+  border-radius: 30% 30% 0px 0px;
+}
+.sec_FooterSchablone img:hover {
+  scale: 1.2;
 }/*# sourceMappingURL=FooterSchablone.css.map */

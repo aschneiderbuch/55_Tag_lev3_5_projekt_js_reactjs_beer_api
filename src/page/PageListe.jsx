@@ -58,7 +58,6 @@ const PageListe = () => {
     return (
 
         <section>
-            <h1>PageListe</h1>
 
             {/* // ! hier kommt der .map */}
             {/* getBeer && getBeer.map wird gebraucht, 

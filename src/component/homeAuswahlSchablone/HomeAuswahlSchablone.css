@@ -1,6 +1,36 @@
-.sec_HomeAuswahlSchablone article:nth-of-type(1) {
-  width: 20px;
+.sec_HomeAuswahlSchablone {
+  display: flex;
+  flex-direction: column;
 }
-.sec_HomeAuswahlSchablone article:nth-of-type(1) img {
-  width: 100%;
+.sec_HomeAuswahlSchablone section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5vw 2vw;
+  margin: auto;
+  max-height: 30vh;
+  background-color: yellow;
+}
+.sec_HomeAuswahlSchablone section article:nth-of-type(1) {
+  background-color: red;
+  max-height: 200px;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+}
+.sec_HomeAuswahlSchablone section article:nth-of-type(1) img {
+  background-size: contain;
+  height: 200px;
+}
+.sec_HomeAuswahlSchablone section article:nth-of-type(2) {
+  background-color: blue;
+  height: 200px;
+  width: 60vw;
+}
+.sec_HomeAuswahlSchablone h6 {
+  height: 3px;
+  background-color: grey;
+  width: 90vw;
+  margin: 5vh;
 }/*# sourceMappingURL=HomeAuswahlSchablone.css.map */

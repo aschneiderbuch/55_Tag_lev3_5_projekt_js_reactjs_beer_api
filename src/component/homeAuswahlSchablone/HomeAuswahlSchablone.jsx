@@ -17,19 +17,26 @@ const HomeAuswahlSchablone = (props) => {
 
 
         <section className="sec_HomeAuswahlSchablone" id={props._id}>
-            <article>
 
-                <img src={props.image_url} alt={`Bild von einem Bier`} />
-            </article>
+            <section>
 
-            <article>
-                <h2>{props.name}</h2>
-                <h3>{props.tagline}</h3>  {/* // * color gelb */}
-                <p>Created by: {props.name}</p>
-            <button style={ {backgroundImage: `url(${  button   })` } } > <Link exact to={`/Einzelseite/${props._id}`}  > Details </Link> </button>
-                {/* in link   useParams  rein */}
-            </article>
+                <article>
 
+                    <img src={props.image_url} alt={`Bild von einem Bier`} />
+                </article>
+
+                <article>
+                    <h2>{props.name}</h2>
+                    <h3>{props.tagline}</h3>  {/* // * color gelb */}
+                    <p>Created by: {props.name}</p>
+                    <button style={{ backgroundImage: `url(${button})` }} > <Link exact to={`/Einzelseite/${props._id}`}  > Details </Link> </button>
+                    {/* in link   useParams  rein */}
+                </article>
+
+
+            </section>
+
+            <h6> </h6>  {/* zum stylen stich */}
         </section>
 
 

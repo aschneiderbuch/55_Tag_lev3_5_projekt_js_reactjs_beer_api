@@ -1,1 +1,1 @@
-{"version":3,"sources":["FooterSchablone.css","FooterSchablone.scss"],"names":[],"mappings":"AAAA,gBAAgB;ACAhB;EACI,qBAAA;EAEA,mBAAA,EAAA;iBAAA;ADEJ;ACCI;EAGI,wBAAA;EAEA,aAAA;EACA,uBAAA;EAEA,YAAA;EAEA,YAAA;EAGA,eAAA;EACA,WAAA;EACA,YAAA;ADNR","file":"FooterSchablone.css"}
+{"version":3,"sources":["FooterSchablone.css","FooterSchablone.scss"],"names":[],"mappings":"AAAA,gBAAgB;ACAhB;EACI,qBAAA;EAEA,mBAAA,EAAA;iBAAA;ADEJ;ACCI;EAGI,wBAAA;EAEA,aAAA;EACA,uBAAA;EAEA,YAAA;EAEA,YAAA;EAGA,eAAA;EACA,WAAA;EACA,YAAA;EAEA,8BAAA;ADPR;ACcQ;EACI,UAAA;ADZZ","file":"FooterSchablone.css"}

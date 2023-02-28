@@ -1,17 +1,60 @@
-.sec_HomeAuswahlSchablone{
+.sec_HomeAuswahlSchablone {
+
+    display: flex;
+    flex-direction: column;
+
+    section {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        padding: 5vw 2vw;
+
+        margin: auto;
+        max-height: 30vh;
+
+        background-color: yellow;
 
 
-    article:nth-of-type(1){
-        width: 20px;
-    
-        
 
-        img{
+        article:nth-of-type(1) {
+            background-color: red;
+            max-height: 200px;
+width: 20vw;
 
-            width: 100%;
+            display: flex;
+            justify-content: center;
+
+
+            img {
+
+                background-size: contain;
+                height: 200px;
+
+            }
         }
+
+        article:nth-of-type(2) {
+            background-color: blue;
+
+            height: 200px;
+            width: 60vw;
+
+            
+
+        }
+
+
     }
 
-    article:nth-of-type(2){
+    h6 {
+        height: 3px;
+        background-color: grey;
+        width: 90vw;
+
+        margin: 5vh;
+
     }
 }
