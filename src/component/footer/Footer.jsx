@@ -4,7 +4,7 @@ import FooterSchablone from "../footerSchablone/FooterSchablone";
 const Footer = () => {
     return ( 
 
-        <section>
+        <section >
 
 <FooterSchablone> </FooterSchablone>
 

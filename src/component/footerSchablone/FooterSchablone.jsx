@@ -5,23 +5,25 @@
 import logo from "../../img/Logo.svg"
 import { useNavigate } from "react-router-dom";
 
+import "./FooterSchablone.scss"
 
 
 // sfc
 const FooterSchablone = () => {
 
-let navigate = useNavigate()
+    let navigate = useNavigate()
 
-    return ( 
+    return (
 
 
 
-        <section>
+        <section className="sec_FooterSchablone">
 
-                        <img onClick={() => navigate(-1)} src={logo} alt="Logo Bier Button" />
-
+            <article>
+                <img onClick={() => navigate("/")} src={logo} alt="Logo Bier Button" />
+            </article>
         </section>
-     );
+    );
 }
- 
+
 export default FooterSchablone
