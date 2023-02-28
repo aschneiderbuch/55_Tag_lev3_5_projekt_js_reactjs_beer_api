@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 import { v4 as uuidv4 } from "uuid";
+import ButtonBack from "../component/buttonBack/ButtonBack.jsx";
+import Footer from "../component/footer/Footer.jsx";
 import RandomUndDetailSchablone from "../component/randomUndDetailSchablone/RandomUndDetailSchablone.jsx";
 
 
@@ -70,8 +72,9 @@ const PageRandom = () => {
                 </RandomUndDetailSchablone>
             )}
 
+<ButtonBack> </ButtonBack>
 
-   
+   <Footer> </Footer>
 
         </section>
     );

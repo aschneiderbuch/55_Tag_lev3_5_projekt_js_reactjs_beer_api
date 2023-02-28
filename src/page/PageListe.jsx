@@ -12,6 +12,7 @@ import HomeAuswahlSchablone from "../component/homeAuswahlSchablone/HomeAuswahlS
 
 // import uuid
 import { v4 as uuidv4 } from "uuid";
+import Footer from "../component/footer/Footer.jsx";
 // import RandomUndDetailSchablone from "../component/randomUndDetailSchablone/RandomUndDetailSchablone.jsx";
 
 // sfc
@@ -81,7 +82,7 @@ const PageListe = () => {
             })}
     
 
-
+<Footer></Footer>
 
 
 

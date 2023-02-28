@@ -7,6 +7,8 @@ import { v4 as uuidv4 } from "uuid";
 
 // import css
 import RandomUndDetailSchablone from "../component/randomUndDetailSchablone/RandomUndDetailSchablone.jsx";
+import Footer from "../component/footer/Footer.jsx";
+import ButtonBack from "../component/buttonBack/ButtonBack.jsx";
 
 
 
@@ -70,6 +72,9 @@ console.log(getData)
     </RandomUndDetailSchablone>
 )} 
 
+<ButtonBack> </ButtonBack>
+
+<Footer> </Footer>
 
         </section>
 

@@ -33,7 +33,6 @@ const Home = () => {
             ></HomeAuswahl>
 
 
-
         </section>
 
      );
