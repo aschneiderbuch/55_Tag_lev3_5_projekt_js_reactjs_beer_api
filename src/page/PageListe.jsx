@@ -1,4 +1,4 @@
-import HomeAuswahl from "../component/homeAuswahl/HomeAuswahl.jsx";
+// import HomeAuswahl from "../component/homeAuswahl/HomeAuswahl.jsx";
 
 // import useEffect
 import { useEffect } from "react";
@@ -8,7 +8,10 @@ import { useState } from "react";
 
 // import von data 
 import dataBackup from "../data/Data.jsx";
+import HomeAuswahlSchablone from "../component/homeAuswahlSchablone/HomeAuswahlSchablone.jsx";
 
+// import uuid
+import { v4 as uuidv4 } from "uuid";
 
 // sfc
 const PageListe = () => {
@@ -28,7 +31,7 @@ const PageListe = () => {
 
     useEffect(() => {
         console.log("in useEffect");
-        fetch (`http://ih-beers-api2.herokuapp.com/beers`)
+        fetch(`http://ih-beers-api2.herokuapp.com/beers`)
             .then(response => response.json())
             .then(data => {
                 console.log(data)
@@ -56,8 +59,25 @@ const PageListe = () => {
             <h1>PageListe</h1>
 
             {/* // ! hier kommt der .map */}
+            {/* getBeer && getBeer.map wird gebraucht, 
+            um das Problem mit dem asyncronen fetch 
+            und fehlenden daten zu umgehen  */}
+            {getBeer && getBeer.map((i, index) => {
 
-            <h2>hier jetzt homeAuswahlSchablone rein</h2>
+                return <HomeAuswahlSchablone 
+                key={uuidv4()} /* uuid und diese key wird für map gebraucht, sonst mosert react */
+                image_url={i.image_url}
+                _id={i._id}
+                tagline={i.tagline}
+                first_brewed={i.first_brewed}
+                attenuation_level={i.attenuation_level}
+                contributed_by={i.contributed_by}
+
+                >
+
+                </HomeAuswahlSchablone>
+            })}
+
 
 
 
