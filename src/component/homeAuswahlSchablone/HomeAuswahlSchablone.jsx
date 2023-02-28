@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // import useParams
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 
 // import css
 import "./HomeAuswahlSchablone.scss";
@@ -15,16 +15,16 @@ const HomeAuswahlSchablone = (props) => {
             <article>
                 <h1>Schablone</h1>
 
-                <img src={props.image_url} alt="" />
+                <img src={props.image_url} alt= {`Bild von einem Bier`} />
             </article>
 
             <article>
                 <h2>{props.name}</h2>
                 <h3>{props.tagline}</h3>  {/* // * color gelb */}
                 <p>Created by: {props.name}</p>
-            <button> <Link to={`/PageListe/${props._id}`} > Details </Link> </button>
-            {/* in link   useParams  rein */}
-                </article>
+                <button> <Link exact to={`/Einzelseite/${props._id}` } > Details </Link> </button>
+                {/* in link   useParams  rein */}
+            </article>
 
         </section>
 

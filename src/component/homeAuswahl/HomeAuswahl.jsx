@@ -20,7 +20,7 @@ const HomeAuswahl = (props) => {
 
         <img src={props.img} alt={`Bild ${props.img} ${props.text}`} />
         {/* // ! ist Link */}
-        <Link to={`/home/${props.linkZuPage}`}>  {props.buttonText}</Link>
+        <Link to={`/${props.linkZuPage}`}>  {props.buttonText}</Link>
         <p>{props.text}</p>
 
 

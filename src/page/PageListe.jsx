@@ -12,6 +12,7 @@ import HomeAuswahlSchablone from "../component/homeAuswahlSchablone/HomeAuswahlS
 
 // import uuid
 import { v4 as uuidv4 } from "uuid";
+// import RandomUndDetailSchablone from "../component/randomUndDetailSchablone/RandomUndDetailSchablone.jsx";
 
 // sfc
 const PageListe = () => {
@@ -64,19 +65,23 @@ const PageListe = () => {
             und fehlenden daten zu umgehen  */}
             {getBeer && getBeer.map((i, index) => {
 
-                return <HomeAuswahlSchablone 
-                key={uuidv4()} /* uuid und diese key wird für map gebraucht, sonst mosert react */
-                image_url={i.image_url}
-                _id={i._id}
-                tagline={i.tagline}
-                first_brewed={i.first_brewed}
-                attenuation_level={i.attenuation_level}
-                contributed_by={i.contributed_by}
+                return <HomeAuswahlSchablone
+                    key={uuidv4()} /* uuid und diese key wird für map gebraucht, sonst mosert react */
+                    image_url={i.image_url}
+                    _id={i._id}
+                    name={i.name}
+                    tagline={i.tagline}
+                    first_brewed={i.first_brewed}
+                    attenuation_level={i.attenuation_level}
+                    contributed_by={i.contributed_by}
+                    description={i.description}
 
                 >
-
                 </HomeAuswahlSchablone>
             })}
+    
+
+
 
 
 

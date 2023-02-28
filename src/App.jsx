@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import css
 import './App.css';
+import Einzelseite from './page/Einzelseite.jsx';
 // import HomeAuswahl from './component/homeAuswahl/HomeAuswahl';
 import Home from './page/Home';
 import PageListe from './page/PageListe';
@@ -24,11 +25,11 @@ function App() {
 
           <Route exact path="/" element={<Home> </Home>}    > </Route>
 
-          <Route exact path="/home/PageListe" element={<PageListe> </PageListe>}    > </Route>
+          <Route exact path="/PageListe" element={<PageListe> </PageListe>}    > </Route>
 
-          <Route exact path="/home/PageRandom" element={<PageRandom> </PageRandom>}    > </Route>
+          <Route exact path="/PageRandom" element={<PageRandom> </PageRandom>}    > </Route>
 
-          <Route exact path="/home/PageListe/:_id" element={<PageListe> </PageListe>}    > </Route>
+          <Route exact path="/Einzelseite/:_id" element={<Einzelseite> </Einzelseite>}    > </Route>
 
         </Routes>
 
