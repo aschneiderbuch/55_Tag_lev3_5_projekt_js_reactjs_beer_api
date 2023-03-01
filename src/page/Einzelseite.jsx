@@ -17,10 +17,12 @@ import ButtonBack from "../component/buttonBack/ButtonBack.jsx";
 const Einzelseite = (props) => {
 
     const params = useParams();
+    console.log(params)
+    
     const beerId = params._id
     console.log(beerId)
 
-    const [getData, setData] = useState();
+    const [getData, setData] = useState({});
 
 
     /************************************************************************************************

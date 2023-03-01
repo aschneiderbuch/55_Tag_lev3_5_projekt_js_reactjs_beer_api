@@ -7,13 +7,13 @@ import "./ButtonBack.scss";
 // sfc
 const ButtonBack = () => {
 
-let navigate = useNavigate();
+    let navigate = useNavigate();
 
-    return ( 
+    return (
         <section className="sec_ButtonBack">
-        <img onClick={() => navigate(-1)} src={back} alt="Zurück Button" />
+            <img onClick={() => navigate(-1)} src={back} alt="Zurück Button" />
         </section>
-     );
+    );
 }
- 
+
 export default ButtonBack;
