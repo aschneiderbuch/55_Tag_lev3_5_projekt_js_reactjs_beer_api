@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/css/main.747857ff.css",
+    "main.js": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/js/main.27d5f5a4.js",
+    "static/js/787.dc84f290.chunk.js": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/js/787.dc84f290.chunk.js",
+    "static/media/RobotoSlab-VariableFont_wght.ttf": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/media/RobotoSlab-VariableFont_wght.24c71ebd53c3ed50accb.ttf",
+    "static/media/bild_1_bierTresen.png": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/media/bild_1_bierTresen.bfe1f2b179c7f2a5ada7.png",
+    "static/media/bild_0_bierRegal.png": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/media/bild_0_bierRegal.8579f954b91a1a590db9.png",
+    "static/media/Logo.svg": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/media/Logo.5f3e8883d30f6fff31bf38cee34fae1c.svg",
+    "index.html": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/index.html",
+    "main.747857ff.css.map": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/css/main.747857ff.css.map",
+    "main.27d5f5a4.js.map": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/js/main.27d5f5a4.js.map",
+    "787.dc84f290.chunk.js.map": "/55_Tag_lev3_5_projekt_js_reactjs_beer_api/static/js/787.dc84f290.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.747857ff.css",
+    "static/js/main.27d5f5a4.js"
+  ]
+}
