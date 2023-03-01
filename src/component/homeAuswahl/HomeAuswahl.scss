@@ -1,0 +1,26 @@
+.sec_HomeAuswahl{
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 5vw;
+
+    text-align: left;
+
+    a{
+        width: 100%;
+        background-color: #FFCA41;
+        height: 12vh;
+
+        margin-top: -12vh;
+
+        font-size: 3rem;
+
+    }
+
+    p{
+        font-size: 1.5rem;
+        margin-top: 0.5vh;
+    }
+}

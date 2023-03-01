@@ -1,0 +1,21 @@
+.sec_ButtonBack{
+
+    position: absolute;
+    height: 100vh;
+    margin-top: -150vh;
+
+
+    
+    img{
+    cursor: pointer;
+    padding-left: 5vw;
+
+    position: sticky;
+    top: 200px;
+
+
+
+    &:hover {
+        scale: 1.2;
+    }
+}}

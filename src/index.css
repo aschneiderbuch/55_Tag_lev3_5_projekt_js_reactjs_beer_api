@@ -18,6 +18,34 @@ code {
   src: url("./fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
 }
 
-h1, h2, h3, h4, h5, h6, p, a{
+h1{
   font-family: robot;
+  font-size: 3rem;
+
+}
+
+
+h2{
+  font-family: robot;
+font-size: 2.rem;
+}
+
+h3{
+  font-family: robot;
+  color: #FFCA41;
+}
+
+h4, h5, h6, p, {
+  font-family: robot;
+}
+
+a{
+  font-family: robot;
+text-decoration: none;
+color: white;
+cursor: pointer;
+}
+
+button{
+  cursor: pointer;
 }

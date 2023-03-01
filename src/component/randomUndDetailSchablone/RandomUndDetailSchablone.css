@@ -1,0 +1,32 @@
+.sec_RandomUndDetailSchablone {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 5vw;
+}
+.sec_RandomUndDetailSchablone img {
+  width: 50vw;
+  margin: auto;
+  background-size: contain;
+}
+.sec_RandomUndDetailSchablone h1 {
+  font-size: 4rem;
+  margin: 0px;
+  padding-top: 40px;
+}
+.sec_RandomUndDetailSchablone h3 {
+  margin: 0px;
+}
+.sec_RandomUndDetailSchablone ul {
+  padding: 0px;
+  margin: 0px;
+  padding-top: 10px;
+}
+.sec_RandomUndDetailSchablone ul li {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec_RandomUndDetailSchablone ul li h6 {
+  margin: 0px;
+  color: gray;
+}/*# sourceMappingURL=RandomUndDetailSchablone.css.map */

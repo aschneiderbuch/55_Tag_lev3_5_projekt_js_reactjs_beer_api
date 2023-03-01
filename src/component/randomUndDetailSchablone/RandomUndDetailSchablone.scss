@@ -1,0 +1,47 @@
+.sec_RandomUndDetailSchablone {
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10vh 5vw;
+
+
+
+    img {
+        width: 50vw;
+        margin: auto;
+
+        background-size: contain;
+
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin: 0px;
+        padding-top: 40px;
+    }
+
+    h3 {
+        margin: 0px;
+    }
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+        padding-top: 10px;
+
+        li {
+
+            padding-top: 5px;
+
+            display: flex;
+            justify-content: space-between;
+
+            h6 {
+                margin: 0px;
+                color: gray;
+            }
+        }
+    }
+
+}

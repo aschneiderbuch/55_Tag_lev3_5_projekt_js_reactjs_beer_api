@@ -2,6 +2,9 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+    
 
     section {
 
@@ -13,14 +16,12 @@
         padding: 5vw 2vw;
 
         margin: auto;
-        max-height: 30vh;
+//        max-height: 30vh;
 
-        background-color: yellow;
 
 
 
         article:nth-of-type(1) {
-            background-color: red;
             max-height: 200px;
 width: 20vw;
 
@@ -37,13 +38,30 @@ width: 20vw;
         }
 
         article:nth-of-type(2) {
-            background-color: blue;
 
-            height: 200px;
+            height: 250px;
             width: 60vw;
 
-            
+            h2{
+                
+            }
 
+            button{
+                background-size: cover;
+                width: 20vw;
+                height: 5vh;
+                background-repeat: no-repeat;
+                
+                border-radius: 20px;
+                background-position: center;
+
+
+                a{
+                    text-decoration: none;
+                    color:rgba(255, 255, 255, 0);
+                    
+                }
+            }
         }
 
 

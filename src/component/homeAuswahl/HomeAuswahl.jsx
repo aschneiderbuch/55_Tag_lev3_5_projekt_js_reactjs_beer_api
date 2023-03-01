@@ -8,13 +8,14 @@ import { Link } from "react-router-dom"
 // und einmal zum Random bier
 
 
-
+// import css
+import "./HomeAuswahl.scss"
 
 //sfc
 const HomeAuswahl = (props) => {
     return ( 
 
-        <section>
+        <section className="sec_HomeAuswahl">
 
 
 

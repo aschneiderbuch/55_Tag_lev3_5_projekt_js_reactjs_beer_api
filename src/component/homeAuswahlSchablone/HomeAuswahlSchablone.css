@@ -1,6 +1,8 @@
 .sec_HomeAuswahlSchablone {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
 }
 .sec_HomeAuswahlSchablone section {
   display: flex;
@@ -9,11 +11,8 @@
   text-align: center;
   padding: 5vw 2vw;
   margin: auto;
-  max-height: 30vh;
-  background-color: yellow;
 }
 .sec_HomeAuswahlSchablone section article:nth-of-type(1) {
-  background-color: red;
   max-height: 200px;
   width: 20vw;
   display: flex;
@@ -24,9 +23,20 @@
   height: 200px;
 }
 .sec_HomeAuswahlSchablone section article:nth-of-type(2) {
-  background-color: blue;
-  height: 200px;
+  height: 250px;
   width: 60vw;
+}
+.sec_HomeAuswahlSchablone section article:nth-of-type(2) button {
+  background-size: cover;
+  width: 20vw;
+  height: 5vh;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-position: center;
+}
+.sec_HomeAuswahlSchablone section article:nth-of-type(2) button a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0);
 }
 .sec_HomeAuswahlSchablone h6 {
   height: 3px;

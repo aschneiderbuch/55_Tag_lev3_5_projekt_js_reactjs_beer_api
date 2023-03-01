@@ -15,6 +15,9 @@ import { v4 as uuidv4 } from "uuid";
 import Footer from "../component/footer/Footer.jsx";
 // import RandomUndDetailSchablone from "../component/randomUndDetailSchablone/RandomUndDetailSchablone.jsx";
 
+// import css
+import "./PageListe.scss";
+
 // sfc
 const PageListe = () => {
 
@@ -57,7 +60,7 @@ const PageListe = () => {
 
     return (
 
-        <section>
+        <section className="sec_PageListe">
 
             {/* // ! hier kommt der .map */}
             {/* getBeer && getBeer.map wird gebraucht, 
